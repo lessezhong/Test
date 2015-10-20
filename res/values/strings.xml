@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">煤油助手</string>
+    <string name="hello_world"></string>
+    <string name="More">自选</string>
+
+</resources>

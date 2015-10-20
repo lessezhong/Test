@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="深市"
+        android:textSize="20sp" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/yestodayClosePrices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="昨天收盘"
+        android:textSize="20sp" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/nowPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="当前指数"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/increasementbyPer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="涨幅"
+        android:textSize="20sp" />
+
+</LinearLayout>
